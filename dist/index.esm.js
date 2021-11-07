@@ -3371,7 +3371,7 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/dragonballfinance_org",
+        href: "https://t.me/DFswap",
         // items: [
         //     {
         //         label: "Announcement Channel",
@@ -3386,7 +3386,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/dragonballdefi",
+        href: "https://mobile.twitter.com/scrtraveler",
     },
 ];
 var MENU_HEIGHT = 64;
