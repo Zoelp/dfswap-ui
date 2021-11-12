@@ -3561,7 +3561,7 @@ var SocialLinks$1 = React.memo(SocialLinks, function () { return true; });
 var Icons = IconModule;
 var LanguageIcon = Icons.LanguageIcon;
 var LangSelector = function (_a) {
-    console.log(_a)
+    // console.log(_a)
     // console.log("langselector")
     var currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
     var Dropdown2 = function (_a) {
@@ -3659,7 +3659,7 @@ var StyledPanel = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeT
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
 var Panel = function (props) {
-    console.log(props)
+    // console.log(props)
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
