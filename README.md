@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm install dfswap-ui`
+`npm install dfswap-ui-copy`
 
 ## Setup
 
@@ -22,7 +22,7 @@ import { light, dark } from '@pancakeswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from 'dfswap-ui'
+import { ResetCSS } from 'dfswap-ui-copy'
 ...
 <ResetCSS />
 ```
