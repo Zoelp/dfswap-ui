@@ -738,7 +738,6 @@ var Icon$P = function (props) {
                 React.createElement("rect", { width: "48", height: "48", fill: "white", transform: "matrix(-1 0 0 1 48 0)" })))));
 };
 
-
 var Icon$O = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
         React.createElement("path", { d: "M9 14.7902C9 15.555 9.82366 16.0367 10.4903 15.6617L15.4505 12.8716C16.1302 12.4893 16.1302 11.5107 15.4505 11.1284L10.4903 8.33827C9.82366 7.96331 9 8.44502 9 9.20985V14.7902ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" })));
@@ -832,7 +831,7 @@ var Icon$H = function (props) {
             React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M13.9627 18.7486C14.73 19.7089 15.9227 20.4634 17.3569 20.8477C20.2916 21.6341 23.1259 20.5724 23.7898 18.0947C24.0539 17.1092 23.9086 16.1461 23.4531 15.2939C24.2558 16.2986 24.5929 17.5285 24.2534 18.7954C23.5895 21.2731 20.7552 22.3347 17.8205 21.5484C16.0531 21.0748 14.6523 20.0389 13.9627 18.7486Z", fill: "#EB8C00" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip-teamplayer" },
-                React.createElement("rect", { width: "22", height: "22", fill: "white", transform: "translate(0.5 0.5)" })))));
+                React.createElement("rect", { width: "24", height: "24", fill: "white", transform: "translate(0.5 0.5)" })))));
 };
 
 var Icon$G = function (props) {
@@ -1344,8 +1343,7 @@ var DropdownContent = styled.div(templateObject_1$E || (templateObject_1$E = __m
     var theme = _a.theme;
     return theme.radii.small;
 });
-// var Container$4 = styled.div(templateObject_2$k || (templateObject_2$k = __makeTemplateObject(["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"], ["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"])), DropdownContent, DropdownContent);
-var Container$4 = styled.div(templateObject_2$k || (templateObject_2$k = __makeTemplateObject(["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"], ["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"])));
+var Container$4 = styled.div(templateObject_2$k || (templateObject_2$k = __makeTemplateObject(["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"], ["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"])), DropdownContent, DropdownContent);
 var Dropdown = function (_a) {
     var target = _a.target, _b = _a.position, position = _b === void 0 ? "bottom" : _b, children = _a.children;
     return (React.createElement(Container$4, null,
@@ -1892,14 +1890,13 @@ var Icon$q = function (props) {
 var rotate = keyframes(templateObject_1$p || (templateObject_1$p = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var float = keyframes(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n\t0% {\n\t\ttransform: translatey(0px);\n\t}\n\t50% {\n\t\ttransform: translatey(10px);\n\t}\n\t100% {\n\t\ttransform: translatey(0px);\n\t}\n"], ["\n\t0% {\n\t\ttransform: translatey(0px);\n\t}\n\t50% {\n\t\ttransform: translatey(10px);\n\t}\n\t100% {\n\t\ttransform: translatey(0px);\n\t}\n"])));
 var Container$3 = styled.div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
-// var RotatingPancakeIcon = styled(Icon$q)(templateObject_4$4 || (templateObject_4$4 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
-//var FloatingPanIcon = styled(Icon$r)(templateObject_5$2 || (templateObject_5$2 = __makeTemplateObject(["\n  animation: ", " 6s ease-in-out infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  animation: ", " 6s ease-in-out infinite;\n  transform: translate3d(0, 0, 0);\n"])), float);
-
+var RotatingPancakeIcon = styled(Icon$q)(templateObject_4$4 || (templateObject_4$4 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
+var FloatingPanIcon = styled(Icon$r)(templateObject_5$2 || (templateObject_5$2 = __makeTemplateObject(["\n  animation: ", " 6s ease-in-out infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  animation: ", " 6s ease-in-out infinite;\n  transform: translate3d(0, 0, 0);\n"])), float);
 var Spinner = function (_a) {
     var _b = _a.size, size = _b === void 0 ? 128 : _b;
     return (React.createElement(Container$3, null,
-        React.createElement("img", { width: "120", height: "120", src: '/images/egg/spinner.png' })));
-        //React.createElement(FloatingPanIcon, { width: size + "px" })));
+        React.createElement(RotatingPancakeIcon, { width: size * 0.5 + "px" }),
+        React.createElement(FloatingPanIcon, { width: size + "px" })));
 };
 var templateObject_1$p, templateObject_2$c, templateObject_3$6, templateObject_4$4, templateObject_5$2;
 
@@ -2203,7 +2200,7 @@ var sortDataInOrder = function (data, columns) {
 };
 var makeRender = function (
 // eslint-disable-next-line
-value, 
+value,
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 render, row) {
     return render ? function () { return render({ row: row, value: value }); } : function () { return value; };
@@ -2990,11 +2987,10 @@ var useModal = function (modal, closeOnOverlayClick) {
 //         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19.5 12.97C17.57 12.97 16 14.54 16 16.47C16 18.4 17.57 19.97 19.5 19.97C21.43 19.97 23 18.4 23 16.47C23 14.54 21.43 12.97 19.5 12.97ZM19.5 17.97C18.67 17.97 18 17.3 18 16.47C18 15.64 18.67 14.97 19.5 14.97C20.33 14.97 21 15.64 21 16.47C21 17.3 20.33 17.97 19.5 17.97Z" }),
 //         React.createElement("path", { d: "M9 8.96997H4C3.45 8.96997 3 8.52997 3 7.96997C3 7.41997 3.45 6.96997 4 6.96997H7C8.1 6.96997 9 7.86997 9 8.96997Z" })));
 // };
-
 var Icon$p = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", { width: "22", height: "22", src: '/images/icon/farm.png' })));
-};
+    (React.createElement(React.Fragment, null,
+        React.createElement("img", { width: "20", height: "20", src: '/images/icon/home.png' })));
+}
 
 var Icon$o = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
@@ -3011,14 +3007,9 @@ var Icon$m = function (props) {
         React.createElement("path", { d: "M4 18H15C15.55 18 16 17.55 16 17C16 16.45 15.55 16 15 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H12C12.55 13 13 12.55 13 12C13 11.45 12.55 11 12 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H15C15.55 8 16 7.55 16 7C16 6.45 15.55 6 15 6H4C3.45 6 3 6.45 3 7ZM20.3 14.88L17.42 12L20.3 9.12C20.69 8.73 20.69 8.1 20.3 7.71C19.91 7.32 19.28 7.32 18.89 7.71L15.3 11.3C14.91 11.69 14.91 12.32 15.3 12.71L18.89 16.3C19.28 16.69 19.91 16.69 20.3 16.3C20.68 15.91 20.69 15.27 20.3 14.88Z" })));
 };
 
-// var Icon$l = function (props) {
-//     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-//         React.createElement("path", { d: "M9.99998 19V14H14V19C14 19.55 14.45 20 15 20H18C18.55 20 19 19.55 19 19V12H20.7C21.16 12 21.38 11.43 21.03 11.13L12.67 3.59997C12.29 3.25997 11.71 3.25997 11.33 3.59997L2.96998 11.13C2.62998 11.43 2.83998 12 3.29998 12H4.99998V19C4.99998 19.55 5.44998 20 5.99998 20H8.99998C9.54998 20 9.99998 19.55 9.99998 19Z" })));
-// };
-
-var Icon$l = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", { width: "22", height: "22", src: '/images/icon/home.png' })));
+var Icon$l = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("path", { d: "M9.99998 19V14H14V19C14 19.55 14.45 20 15 20H18C18.55 20 19 19.55 19 19V12H20.7C21.16 12 21.38 11.43 21.03 11.13L12.67 3.59997C12.29 3.25997 11.71 3.25997 11.33 3.59997L2.96998 11.13C2.62998 11.43 2.83998 12 3.29998 12H4.99998V19C4.99998 19.55 5.44998 20 5.99998 20H8.99998C9.54998 20 9.99998 19.55 9.99998 19Z" })));
 };
 
 var Icon$k = function (props) {
@@ -3075,16 +3066,11 @@ var Icon$f = function (props) {
         React.createElement("path", { d: "M12.8533 3.39627C12.4634 2.75821 11.5366 2.75821 11.1467 3.39627L7.42977 9.47855C7.02256 10.1449 7.50213 11 8.28306 11H15.7169C16.4979 11 16.9774 10.1449 16.5702 9.47855L12.8533 3.39627ZM12 5.84L13.93 9H10.06L12 5.84ZM17.5 13C15.01 13 13 15.01 13 17.5C13 19.99 15.01 22 17.5 22C19.99 22 22 19.99 22 17.5C22 15.01 19.99 13 17.5 13ZM17.5 20C16.12 20 15 18.88 15 17.5C15 16.12 16.12 15 17.5 15C18.88 15 20 16.12 20 17.5C20 18.88 18.88 20 17.5 20ZM3 19.5C3 20.6046 3.89543 21.5 5 21.5H9C10.1046 21.5 11 20.6046 11 19.5V15.5C11 14.3954 10.1046 13.5 9 13.5H5C3.89543 13.5 3 14.3954 3 15.5V19.5ZM5 15.5H9V19.5H5V15.5Z" })));
 };
 
-var Icon$e = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", { width: "22", height: "22", src: '/images/icon/pool.png' })));
+var Icon$e = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("path", { d: "M7.5 13C7.5 11.8954 8.39543 11 9.5 11H12.5C13.6046 11 14.5 11.8954 14.5 13V15C14.5 16.1046 13.6046 17 12.5 17H9.5C8.39543 17 7.5 16.1046 7.5 15V13Z" }),
+        React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M9.5 2C8.39543 2 7.5 2.89543 7.5 4V6.49482C7.5 6.93167 7.2113 7.30895 6.81834 7.49981C5.15004 8.31009 4 10.0207 4 12V17C4 19.2091 5.79086 21 8 21H14C16.2091 21 18 19.2091 18 17V12C18 11.4175 17.9004 10.8583 17.7173 10.3385L17.7892 10.297C19.4786 9.32167 20.0574 7.16153 19.082 5.47221C18.1552 3.86682 16.1534 3.25957 14.5 4.05146V4C14.5 2.89543 13.6046 2 12.5 2H9.5ZM9.5 6.25V4H12.5V6.25H9.5ZM9.22663 7.75C8.89473 8.46917 8.30318 9.00205 7.69211 9.29884C6.68638 9.78731 6 10.8154 6 12V17C6 18.1046 6.89543 19 8 19H14C15.1046 19 16 18.1046 16 17V12C16 10.8154 15.3136 9.78731 14.3079 9.29884C13.6968 9.00205 13.1053 8.46917 12.7734 7.75H9.22663ZM14.5 6.3226V6.49482C14.5 6.93167 14.7887 7.30895 15.1817 7.49981C15.7529 7.77726 16.2634 8.16029 16.6878 8.62352L16.7892 8.56495C17.522 8.1419 17.773 7.20495 17.35 6.47221C16.9346 5.75269 16.0213 5.49542 15.2914 5.89229L14.5 6.3226Z" })));
 };
-
-// var Icon$e = function (props) {
-//     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-//         React.createElement("path", { d: "M7.5 13C7.5 11.8954 8.39543 11 9.5 11H12.5C13.6046 11 14.5 11.8954 14.5 13V15C14.5 16.1046 13.6046 17 12.5 17H9.5C8.39543 17 7.5 16.1046 7.5 15V13Z" }),
-//         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M9.5 2C8.39543 2 7.5 2.89543 7.5 4V6.49482C7.5 6.93167 7.2113 7.30895 6.81834 7.49981C5.15004 8.31009 4 10.0207 4 12V17C4 19.2091 5.79086 21 8 21H14C16.2091 21 18 19.2091 18 17V12C18 11.4175 17.9004 10.8583 17.7173 10.3385L17.7892 10.297C19.4786 9.32167 20.0574 7.16153 19.082 5.47221C18.1552 3.86682 16.1534 3.25957 14.5 4.05146V4C14.5 2.89543 13.6046 2 12.5 2H9.5ZM9.5 6.25V4H12.5V6.25H9.5ZM9.22663 7.75C8.89473 8.46917 8.30318 9.00205 7.69211 9.29884C6.68638 9.78731 6 10.8154 6 12V17C6 18.1046 6.89543 19 8 19H14C15.1046 19 16 18.1046 16 17V12C16 10.8154 15.3136 9.78731 14.3079 9.29884C13.6968 9.00205 13.1053 8.46917 12.7734 7.75H9.22663ZM14.5 6.3226V6.49482C14.5 6.93167 14.7887 7.30895 15.1817 7.49981C15.7529 7.77726 16.2634 8.16029 16.6878 8.62352L16.7892 8.56495C17.522 8.1419 17.773 7.20495 17.35 6.47221C16.9346 5.75269 16.0213 5.49542 15.2914 5.89229L14.5 6.3226Z" })));
-// };
 
 var Icon$d = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
@@ -3115,31 +3101,10 @@ var Icon$a = function (props) {
         React.createElement("path", { d: "M12 3C7.02985 3 3 7.02985 3 11.9904C3 16.9606 7.02985 21 12 21C16.9701 21 21 16.9606 21 11.9904C21 7.02985 16.9701 3 12 3ZM16.4328 8.65139C16.3753 9.48614 14.8305 15.7228 14.8305 15.7228C14.8305 15.7228 14.7345 16.0874 14.3987 16.097C14.2836 16.097 14.1301 16.0874 13.9574 15.9243C13.6023 15.6269 12.7964 15.0512 12.0384 14.5235C12.0096 14.5522 11.9808 14.581 11.9424 14.6098C11.7697 14.7633 11.5107 14.984 11.2324 15.2527C11.1269 15.3486 11.0117 15.4542 10.8966 15.5693L10.887 15.5789C10.8198 15.6461 10.7623 15.694 10.7143 15.7324C10.3401 16.0394 10.3017 15.7804 10.3017 15.6461L10.5032 13.4488V13.4296L10.5128 13.4104C10.5224 13.3817 10.5416 13.3721 10.5416 13.3721C10.5416 13.3721 14.4659 9.87953 14.5714 9.50533C14.581 9.48614 14.5522 9.46695 14.5043 9.48614C14.2452 9.57249 9.72601 12.4318 9.22708 12.7484C9.19829 12.7676 9.11194 12.758 9.11194 12.758L6.91471 12.0384C6.91471 12.0384 6.65565 11.9328 6.742 11.693C6.76119 11.645 6.78998 11.597 6.89552 11.5299C7.38486 11.1844 15.8955 8.12367 15.8955 8.12367C15.8955 8.12367 16.1354 8.04691 16.2793 8.09488C16.3465 8.12367 16.3849 8.15245 16.4232 8.2484C16.4328 8.28678 16.4424 8.36354 16.4424 8.44989C16.4424 8.49787 16.4328 8.55544 16.4328 8.65139Z" })));
 };
 
-// var Icon$9 = function (props) {
-//     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-//         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M14.3137 3L15.2631 3.94934C14.5597 5.19866 14.7398 6.81097 15.8032 7.87441C16.8667 8.93786 18.479 9.11792 19.7283 8.4146L20.6777 9.36396L17.6569 12.3848L17.1287 11.8566C16.7382 11.4661 16.105 11.4661 15.7145 11.8566C15.3239 12.2471 15.3239 12.8803 15.7145 13.2708L16.2426 13.799L9.36396 20.6777L8.49923 19.8129C9.71921 18.5286 9.69924 16.4983 8.43932 15.2384C7.1794 13.9784 5.14908 13.9585 3.86473 15.1784L3 14.3137L9.87868 7.43503L10.2145 7.77081C10.605 8.16134 11.2382 8.16134 11.6287 7.77081C12.0192 7.38029 12.0192 6.74713 11.6287 6.3566L11.2929 6.02081L14.3137 3ZM12.8995 1.58579C13.6805 0.804738 14.9469 0.804738 15.7279 1.58579L17.299 3.15684C17.6895 3.54736 17.6895 4.18053 17.299 4.57105L17.2175 4.65257C16.7183 5.15173 16.7183 5.96103 17.2175 6.4602C17.7166 6.95936 18.5259 6.95936 19.0251 6.4602L19.1066 6.37868C19.4971 5.98816 20.1303 5.98816 20.5208 6.37868L22.0919 7.94975C22.8729 8.7308 22.8729 9.99713 22.0919 10.7782L10.7782 22.0919C9.99713 22.8729 8.7308 22.8729 7.94975 22.0919L6.37869 20.5208C5.98817 20.1303 5.98817 19.4971 6.37869 19.1066L7.02511 18.4602C7.52427 17.961 7.52427 17.1517 7.02511 16.6526C6.52594 16.1534 5.71664 16.1534 5.21748 16.6526L4.57106 17.299C4.18054 17.6895 3.54737 17.6895 3.15685 17.299L1.58579 15.7279C0.804738 14.9469 0.804738 13.6805 1.58579 12.8995L12.8995 1.58579ZM13.8787 8.6066C13.4882 8.21608 12.855 8.21608 12.4645 8.6066C12.0739 8.99712 12.0739 9.63029 12.4645 10.0208L13.4645 11.0208C13.855 11.4113 14.4882 11.4113 14.8787 11.0208C15.2692 10.6303 15.2692 9.99713 14.8787 9.6066L13.8787 8.6066Z" })));
-// };
-
-var Icon$9 = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", { width: "22", height: "22", src: '/images/icon/lottery.png' })));
+var Icon$9 = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M14.3137 3L15.2631 3.94934C14.5597 5.19866 14.7398 6.81097 15.8032 7.87441C16.8667 8.93786 18.479 9.11792 19.7283 8.4146L20.6777 9.36396L17.6569 12.3848L17.1287 11.8566C16.7382 11.4661 16.105 11.4661 15.7145 11.8566C15.3239 12.2471 15.3239 12.8803 15.7145 13.2708L16.2426 13.799L9.36396 20.6777L8.49923 19.8129C9.71921 18.5286 9.69924 16.4983 8.43932 15.2384C7.1794 13.9784 5.14908 13.9585 3.86473 15.1784L3 14.3137L9.87868 7.43503L10.2145 7.77081C10.605 8.16134 11.2382 8.16134 11.6287 7.77081C12.0192 7.38029 12.0192 6.74713 11.6287 6.3566L11.2929 6.02081L14.3137 3ZM12.8995 1.58579C13.6805 0.804738 14.9469 0.804738 15.7279 1.58579L17.299 3.15684C17.6895 3.54736 17.6895 4.18053 17.299 4.57105L17.2175 4.65257C16.7183 5.15173 16.7183 5.96103 17.2175 6.4602C17.7166 6.95936 18.5259 6.95936 19.0251 6.4602L19.1066 6.37868C19.4971 5.98816 20.1303 5.98816 20.5208 6.37868L22.0919 7.94975C22.8729 8.7308 22.8729 9.99713 22.0919 10.7782L10.7782 22.0919C9.99713 22.8729 8.7308 22.8729 7.94975 22.0919L6.37869 20.5208C5.98817 20.1303 5.98817 19.4971 6.37869 19.1066L7.02511 18.4602C7.52427 17.961 7.52427 17.1517 7.02511 16.6526C6.52594 16.1534 5.71664 16.1534 5.21748 16.6526L4.57106 17.299C4.18054 17.6895 3.54737 17.6895 3.15685 17.299L1.58579 15.7279C0.804738 14.9469 0.804738 13.6805 1.58579 12.8995L12.8995 1.58579ZM13.8787 8.6066C13.4882 8.21608 12.855 8.21608 12.4645 8.6066C12.0739 8.99712 12.0739 9.63029 12.4645 10.0208L13.4645 11.0208C13.855 11.4113 14.4882 11.4113 14.8787 11.0208C15.2692 10.6303 15.2692 9.99713 14.8787 9.6066L13.8787 8.6066Z" })));
 };
-
-var IconReferral = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", {width:"22",height:"22",src:"/images/icon/referral.png"})
-    ))
-}
-var IconSwap = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", {width:"22",height:"22",src:"/images/icon/swap.png"})
-    ))
-}
-var IconLqty = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", {width:"22",height:"22",src:"/images/icon/lqty.png"})
-    ))
-}
 
 var Icon$8 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
@@ -3170,11 +3135,6 @@ var Icon$12 = function (props) {
             React.createElement("path", { d: "M291.195,210.11c0-70.35-57.233-127.584-127.583-127.584C93.263,82.526,36.03,139.76,36.03,210.11\r\n\t\t\tc0,20.615,4.921,40.1,13.64,57.353l113.942,234.973l113.96-235.01C286.28,250.182,291.195,230.709,291.195,210.11z\r\n\t\t\t M163.612,280.711c-38.931,0-70.604-31.671-70.604-70.602c0-38.932,31.674-70.605,70.604-70.605s70.604,31.674,70.604,70.605\r\n\t\t\tC234.215,249.04,202.542,280.711,163.612,280.711z" }))));
 };
 
-var Icon$13 = function (props){
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", { width: "22", height: "22", src: '/images/icon/lottery2.png' })));
-};
-
 var IconModule = /*#__PURE__*/Object.freeze({
     __proto__: null,
     FarmIcon: Icon$p,
@@ -3195,18 +3155,14 @@ var IconModule = /*#__PURE__*/Object.freeze({
     TeamBattleIcon: Icon$b,
     TelegramIcon: Icon$a,
     TicketIcon: Icon$9,
-    TicketIcon2: Icon$13,
     TradeIcon: Icon$8,
-    TwitterIcon: Icon$7,    
+    TwitterIcon: Icon$7,
     RedditIcon: Icon$Z,
     AuditIcon: Icon$_,
     GooseIcon: Icon$$,
     HandshakeIcon: Icon$10,
     LayerIcon: Icon$11,
-    RoadmapIcon: Icon$12,
-    referralIcon:IconReferral,
-    SwapIcon:IconSwap,
-    LqtyIcon:IconLqty
+    RoadmapIcon: Icon$12
 });
 
 var MenuButton = styled(Button)(templateObject_1$e || (templateObject_1$e = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
@@ -3291,16 +3247,6 @@ var links = [
         href: "/lottery",
     },
     {
-        label: "Roulette",
-        icon: "TicketIcon2",
-        href: "/roulette",
-    },
-    {
-        label: "Refferals",
-        icon: 'ReferralIcon',
-        href: '/refferals',
-    },
-    {
         label: "NFT",
         icon: "NftIcon",
         href: "/nft",
@@ -3383,22 +3329,21 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/DFswap",
-        // items: [
-        //     {
-        //         label: "Announcement Channel",
-        //         href: "https://t.me/dragonballfinancenews",
-        //     },
-        //     {
-        //         label: "Chat",
-        //         href: "https://t.me/dragonballfinance_org",
-        //     },
-        // ],
+        items: [
+            {
+                label: "Announcement Channel",
+                href: "https://t.me/joinchat/CczbtF-e7fQ2OWFl",
+            },
+            {
+                label: "Chat",
+                href: "https://t.me/joinchat/CczbtF-e7fQ2OWFl",
+            },
+        ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://mobile.twitter.com/scrtraveler",
+        href: "https://twitter.com/GameFiswap?s=09",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3527,7 +3472,7 @@ var PriceLink2 = styled.a(templateObject_2$c || (templateObject_2$c = __makeTemp
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
     return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
-    React.createElement("img", { width: "22", height: "22", src: '/images/egg/9.png' }),
+    React.createElement("img", { width: "24", height: "24", src: '/images/egg/9.png' }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React.memo(CakePrice);
@@ -3561,22 +3506,9 @@ var SocialLinks$1 = React.memo(SocialLinks, function () { return true; });
 var Icons = IconModule;
 var LanguageIcon = Icons.LanguageIcon;
 var LangSelector = function (_a) {
-    // console.log(_a)
-    // console.log("langselector")
     var currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
-    var Dropdown2 = function (_a) {
-        var target = _a.target, _b = _a.position, position = _b === void 0 ? "bottom" : _b, children = _a.children;
-        return (React.createElement(LangEntry, null,
-            target,
-            React.createElement(DropdownContent, { position: position }, children)));
-    };
-
-    // console.log("langs")
-    // console.log(langs)
-    //return React.createElement(Dropdown,null);
-    // Button = styled.button(__makeTemplateObject(["padding:0"]));
-    return (React.createElement(Dropdown2, { position: "top-right", target: React.createElement(Button, { variant: "text", startIcon: React.createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
-            React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
+    return (React.createElement(Dropdown, { position: "top-right", target: React.createElement(Button, { variant: "text", startIcon: React.createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
+            React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); },
         // Safari fix
         style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
 };
@@ -3588,11 +3520,6 @@ var Container = styled.div(templateObject_1$8 || (templateObject_1$8 = __makeTem
 });
 var SettingsEntry = styled.div(templateObject_2$3 || (templateObject_2$3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled.div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
-//var LangEntry = styled.div(__makeTemplateObject(["position:relative;border-top:1px solid #eee;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 4px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"],["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"],["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"]), MENU_ENTRY_HEIGHT,DropdownContent,DropdownContent);
-
-var LangContainer = styled.div(__makeTemplateObject(["display:flex;justify-content: flex-end;border-top:1px solid rgba(255,255,255,.1)"]))
-var LangEntry = styled.div(templateObject_2$k || (templateObject_2$k = __makeTemplateObject(["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"], ["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"])), DropdownContent, DropdownContent);
-//var Container$4 = styled.div(__makeTemplateObject(["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"], ["\n  position: relative;\n  &:hover ", ", &:focus-within ", " {\n    display: flex;\n  }\n"])), DropdownContent, DropdownContent);
 var PanelFooter = function (_a) {
     var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd, cakePrice2Usd = _a.cakePrice2Usd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink, priceLink2 = _a.priceLink;
     if (!isPushed) {
@@ -3604,32 +3531,23 @@ var PanelFooter = function (_a) {
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React.createElement(Icon$v, { width: "24px", mr: "8px" }),
-                React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(8)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))
-        ),       
-
+                React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(8)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))),
         React.createElement(SettingsEntry, null,
             React.createElement(Button, { variant: "text", onClick: function () { return toggleTheme(!isDark); } },
                 React.createElement(Flex, { alignItems: "center" },
                     React.createElement(SunIcon, { color: isDark ? "textDisabled" : "text", width: "24px" }),
                     React.createElement(Text, { color: "textDisabled", mx: "4px" }, "/"),
                     React.createElement(MoonIcon, { color: isDark ? "text" : "textDisabled", width: "24px" }))),
-            
-                React.createElement(Flex, null, socials.map(function (social, index) {
-                    var Icon = Icons$1[social.icon];
-                    var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
-                    var mr = index < socials.length - 1 ? "8px" : 0;
-                    if (social.items) {
-                        return (React.createElement(Dropdown, { key: social.label, position: "top", target: React.createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React.createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-                    }
-                    return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
-                        React.createElement(Icon, __assign({}, iconProps))));
-                }))
-                
-            ),
-            React.createElement(LangContainer,null,React.createElement(LangSelector$1,_a))
-           
-                )
-            );
+            React.createElement(Flex, null, socials.map(function (social, index) {
+                var Icon = Icons$1[social.icon];
+                var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+                var mr = index < socials.length - 1 ? "8px" : 0;
+                if (social.items) {
+                    return (React.createElement(Dropdown, { key: social.label, position: "top", target: React.createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React.createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
+                }
+                return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
+                    React.createElement(Icon, __assign({}, iconProps))));
+            })))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1;
 
@@ -3659,7 +3577,6 @@ var StyledPanel = styled.div(templateObject_1$7 || (templateObject_1$7 = __makeT
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
 var Panel = function (props) {
-    // console.log(props)
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
@@ -3798,7 +3715,6 @@ var connectors = [
 var connectorLocalStorageKey = "connectorId";
 
 var WalletCard = function (_a) {
-    //console.log(_a)
     var login = _a.login, walletConfig = _a.walletConfig, onDismiss = _a.onDismiss, mb = _a.mb;
     var title = walletConfig.title, Icon = walletConfig.icon;
     return (React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () {
@@ -3954,14 +3870,14 @@ var Menu = function (_a) {
             }
             // Avoid triggering anything at the bottom because of layout shift
             else if (!isBottomOfPage) {
-                // if (currentOffset < refPrevOffset.current) {
-                //     // Has scroll up
-                //     setShowMenu(true);
-                // }
-                // else {
-                //     // Has scroll down
-                //     setShowMenu(false);
-                // }
+                if (currentOffset < refPrevOffset.current) {
+                    // Has scroll up
+                    setShowMenu(true);
+                }
+                else {
+                    // Has scroll down
+                    setShowMenu(false);
+                }
             }
             refPrevOffset.current = currentOffset;
         };
@@ -3972,10 +3888,10 @@ var Menu = function (_a) {
         };
     }, []);
     // Find the home link if provided
-    // var homeLink = links.find(function (link) { return link.label === "Home"; });
+    var homeLink = links.find(function (link) { return link.label === "Home"; });
     return (React.createElement(Wrapper, null,
         React.createElement(StyledNav, { showMenu: showMenu },
-            React.createElement(Logo$1, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: "/" }),
+            React.createElement(Logo$1, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
             React.createElement(Flex, null,
                 React.createElement(UserBlock$1, { account: account, login: login, logout: logout }),
                 profile && React.createElement(Avatar, { profile: profile }))),
@@ -4073,26 +3989,25 @@ var ResetCSS = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeT
 var templateObject_1;
 
 var baseColors = {
-    failure: "#FF1A00",
+    failure: "#FF9801",
     primary: "#FF9801",
-    primaryBright: "#FFAD4A",
-    primaryDark: "#D57F00",
-    secondary: "#4091CE",
-    success: "#6FB73B",
-    warning: "#FF9801",
-    white:"#FFFFFF",
+    primaryBright: "#FF9801",
+    primaryDark: "#FF9801",
+    secondary: "#FF9801",
+    success: "#FF9801",
+    warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#ffffff", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#FF9801", textDisabled: "#BDC2C4", textSubtle: "#FF9801", borderColor: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#FF9801", textDisabled: "#BDC2C4", textSubtle: "#FF9801", borderColor: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
         blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4091CE", background: "#100C18", backgroundDisabled: "#3c3742", backgroundAlt: "#27262c", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#483f5a", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#FF9801", textDisabled: "#666171", textSubtle: "#FF9801", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#100C18", backgroundDisabled: "#3c3742", backgroundAlt: "#27262c", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#483f5a", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#A28BD4", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
@@ -4188,4 +4103,4 @@ var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark$7, colo
 
 var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light$7, colors: lightColors, card: light$6, toggle: light$3, nav: light$2, modal: light$1, pancakeToggle: light$5, radio: light$4, tooltip: light });
 
-export { Icon$1u as AddIcon, Alert, Icon$1t as ArrowBackIcon, Icon$1s as ArrowDownIcon, Icon$1r as ArrowDropDownIcon, Icon$1q as ArrowDropUpIcon, Icon$1p as ArrowForwardIcon, Icon$1o as ArrowUpIcon, Icon$1n as AutoRenewIcon, BackgroundImage, BalanceInput, GridLayout$1 as BaseLayout, Icon$1m as BinanceIcon, Icon$1w as BlockIcon, Box, Breadcrumbs, Icon$1l as BunnyPlaceholderIcon, Button, ButtonMenu$1 as ButtonMenu, ButtonMenuItem, Icon$1i as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$1j as CardViewIcon, Icon$1k as Cards, GridLayout as CardsLayout, Icon$1g as ChartIcon, Checkbox, Icon$1y as CheckmarkCircleIcon, Icon$1f as CheckmarkIcon, Icon$1e as ChevronDownIcon, Icon$1d as ChevronLeftIcon, Icon$1c as ChevronRightIcon, Icon$1b as ChevronUpIcon, Icon$1h as CircleOutlineIcon, Icon$1a as CloseIcon, Icon$19 as CogIcon, Icon$18 as CommunityIcon, ConnectorNames, Icon$17 as CopyIcon, Icon$16 as CrownIcon, Dropdown, Icon$1x as ErrorIcon, ExpandableButton, ExpandableLabel, FallingBunnies, Flex, Heading, Icon$15 as HelpIcon, Icon$14 as HistoryIcon, IconButton, Image, Icon$1v as InfoIcon, Input$1 as Input, Icon$13 as LaurelLeftIcon, Icon$12 as LaurelRightIcon, Link, LinkExternal, Icon$11 as ListViewIcon, Icon$10 as LogoIcon, Icon$$ as LogoRoundIcon, Icon$_ as MedalBronzeIcon, Icon$Z as MedalGoldIcon, Icon$Y as MedalPurpleIcon, Icon$X as MedalSilverIcon, Icon$W as MedalTealIcon, Menu, Icon$V as MetamaskIcon, Icon$U as MinusIcon, Modal, ModalBackButton, ModalBody, ModalCloseButton, ModalContainer, ModalHeader, ModalProvider, ModalTitle, Icon$T as NoProfileAvatarIcon, NotificationDot, Icon$S as OpenNewIcon, Icon$Q as PancakeRoundIcon, PancakeToggle, Icon$R as PancakesIcon, Icon$O as PlayCircleOutlineIcon, Icon$P as PocketWatchIcon, Icon$N as PrizeIcon, Progress, Icon$K as ProgressBunny, Radio, Icon$s as RefreshIcon, Icon$M as RemoveIcon, ResetCSS, Icon$A as SearchIcon, Skeleton, Slider, Spinner, Step, Stepper, Svg, Icon$z as SwapVertIcon, Icon$y as SyncAltIcon, Tab, ButtonMenu as TabMenu, Tag, Icon$H as TeamPlayerIcon, Icon$G as TestnetIcon, Text, Icon$F as Ticket, Icon$E as TicketRound, Icon$D as TimerIcon, ToastContainer, Toggle, Icon$C as TrophyGoldIcon, Icon$B as TuneIcon, Icon$L as VerifiedIcon, Icon$x as VisibilityOff, Icon$w as VisibilityOn, Icon$v as VolumeOffIcon, Icon$u as VolumeUpIcon, Icon$J as WaitIcon, Icon$t as WarningIcon, Icon$I as Won, variants$2 as alertVariants, byTextAscending, byTextDescending, connectorLocalStorageKey, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, status as menuStatus, types as toastTypes, useKonamiCheatCode, useMatchBreakpoints, useModal, useParticleBurst, useTable, useTooltip, useWalletModal,IconReferral,IconSwap,IconLqty };
+export { Icon$1u as AddIcon, Alert, Icon$1t as ArrowBackIcon, Icon$1s as ArrowDownIcon, Icon$1r as ArrowDropDownIcon, Icon$1q as ArrowDropUpIcon, Icon$1p as ArrowForwardIcon, Icon$1o as ArrowUpIcon, Icon$1n as AutoRenewIcon, BackgroundImage, BalanceInput, GridLayout$1 as BaseLayout, Icon$1m as BinanceIcon, Icon$1w as BlockIcon, Box, Breadcrumbs, Icon$1l as BunnyPlaceholderIcon, Button, ButtonMenu$1 as ButtonMenu, ButtonMenuItem, Icon$1i as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$1j as CardViewIcon, Icon$1k as Cards, GridLayout as CardsLayout, Icon$1g as ChartIcon, Checkbox, Icon$1y as CheckmarkCircleIcon, Icon$1f as CheckmarkIcon, Icon$1e as ChevronDownIcon, Icon$1d as ChevronLeftIcon, Icon$1c as ChevronRightIcon, Icon$1b as ChevronUpIcon, Icon$1h as CircleOutlineIcon, Icon$1a as CloseIcon, Icon$19 as CogIcon, Icon$18 as CommunityIcon, ConnectorNames, Icon$17 as CopyIcon, Icon$16 as CrownIcon, Dropdown, Icon$1x as ErrorIcon, ExpandableButton, ExpandableLabel, FallingBunnies, Flex, Heading, Icon$15 as HelpIcon, Icon$14 as HistoryIcon, IconButton, Image, Icon$1v as InfoIcon, Input$1 as Input, Icon$13 as LaurelLeftIcon, Icon$12 as LaurelRightIcon, Link, LinkExternal, Icon$11 as ListViewIcon, Icon$10 as LogoIcon, Icon$$ as LogoRoundIcon, Icon$_ as MedalBronzeIcon, Icon$Z as MedalGoldIcon, Icon$Y as MedalPurpleIcon, Icon$X as MedalSilverIcon, Icon$W as MedalTealIcon, Menu, Icon$V as MetamaskIcon, Icon$U as MinusIcon, Modal, ModalBackButton, ModalBody, ModalCloseButton, ModalContainer, ModalHeader, ModalProvider, ModalTitle, Icon$T as NoProfileAvatarIcon, NotificationDot, Icon$S as OpenNewIcon, Icon$Q as PancakeRoundIcon, PancakeToggle, Icon$R as PancakesIcon, Icon$O as PlayCircleOutlineIcon, Icon$P as PocketWatchIcon, Icon$N as PrizeIcon, Progress, Icon$K as ProgressBunny, Radio, Icon$s as RefreshIcon, Icon$M as RemoveIcon, ResetCSS, Icon$A as SearchIcon, Skeleton, Slider, Spinner, Step, Stepper, Svg, Icon$z as SwapVertIcon, Icon$y as SyncAltIcon, Tab, ButtonMenu as TabMenu, Tag, Icon$H as TeamPlayerIcon, Icon$G as TestnetIcon, Text, Icon$F as Ticket, Icon$E as TicketRound, Icon$D as TimerIcon, ToastContainer, Toggle, Icon$C as TrophyGoldIcon, Icon$B as TuneIcon, Icon$L as VerifiedIcon, Icon$x as VisibilityOff, Icon$w as VisibilityOn, Icon$v as VolumeOffIcon, Icon$u as VolumeUpIcon, Icon$J as WaitIcon, Icon$t as WarningIcon, Icon$I as Won, variants$2 as alertVariants, byTextAscending, byTextDescending, connectorLocalStorageKey, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, status as menuStatus, types as toastTypes, useKonamiCheatCode, useMatchBreakpoints, useModal, useParticleBurst, useTable, useTooltip, useWalletModal };
